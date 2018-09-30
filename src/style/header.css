@@ -1,0 +1,36 @@
+.Landing-header {
+    background-color: white !important;
+    padding:0px;
+    height:200px;
+    text-align: left;
+    margin-left:60px;
+
+}
+.display-3{
+    font-family: 'Sacramento', cursive;
+    font-size: 150px !important;
+    color: #084552;
+    margin-top:0px;
+    margin-bottom: -50px;
+
+
+
+}
+.my-2{
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 8px auto;
+    height: 0;
+    width: 100%;
+    max-height: 0;
+    font-size: 1px;
+    line-height: 0;
+    clear: both;
+    border: none;
+    border-top: 1px solid #55847D;
+    border-bottom: 1px solid #55847D;
+
+}
+
+
