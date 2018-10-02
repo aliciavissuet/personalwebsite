@@ -6,6 +6,7 @@ import Header from './components/layout/header';
 
 import Landing from './components/layout/landing';
 import Bio from './components/pages/bio';
+import Resume from './components/pages/resume';
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
             {/*</div>*/}
             {/*</div>*/}
             {/*</Router>*/}
+            <Route exact path="/resume" component={Resume}/>
         </div>
 
     )

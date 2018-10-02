@@ -1,0 +1,28 @@
+.Resume{
+    background-color: #F29090;
+    margin:0px;
+    padding:0px;
+}
+.Row-1{
+    margin:0px;
+
+}
+.col-1-col{
+    background: linear-gradient(to bottom,  #084552 0%,#084552 30%,#F1EFE6 30%,#F1EFE6 100%);
+    /*background-color:#F1EFE6;*/
+    border: 5px solid #084552;
+    width:35%;
+    margin:30px;
+}
+.container-fluid{
+    background-color: white;
+    /*background-image: linear-gradient(to right, #CBD7DA, #ECE9DE);*/
+}
+.face{
+    margin:20px;
+    width: auto;
+    height:200px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
