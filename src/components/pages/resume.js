@@ -12,14 +12,35 @@ class Resume extends React.Component {
         return (
             <div className="container-fluid">
                 <div className={"row"}>
+
                     <div className={"col-1-col"}>
-                        <Image className={"face"} src={face} style={{height:"200px"}} rounded/>
-                        <p>test</p>
-                        <p>test</p>
-                        <p>test</p>
-                        <p>test</p>
-                        <p>test</p>
-                        <p>test</p>
+                        <div className={"col-1a"}>
+                            <Image className={"face"} src={face} style={{height:"200px"}} rounded/>
+                            <p className={"Name"}>Alicia Vissuet</p>
+                            <p className={"Title"}>Speech Therapist transitioning to web development</p>
+                            <br></br>
+                            <br></br>
+                        </div>
+                        <div className={"col-1b"}>
+                            <p>test</p>
+                            <p> test</p>
+                        </div>
+                    </div>
+                    <div className={"col-2-col"}>
+                        <div className={"col-2a"}>
+                            <p>test</p>
+                            <p>test</p>
+                            <p>test</p>
+                            <p>test</p>
+                            <p>test</p>
+                            <p>test</p>
+                            <p>test</p>
+                            <p>test</p>
+                            <p>test</p>
+                            <p>test</p>
+                            <p>test</p>
+                            <p>test</p>
+                        </div>
                     </div>
                 </div>
             </div>

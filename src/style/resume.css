@@ -1,5 +1,5 @@
 .Resume{
-    background-color: #F29090;
+    background-color: #4D0227;
     margin:0px;
     padding:0px;
 }
@@ -8,12 +8,38 @@
 
 }
 .col-1-col{
-    background: linear-gradient(to bottom,  #084552 0%,#084552 30%,#F1EFE6 30%,#F1EFE6 100%);
-    /*background-color:#F1EFE6;*/
-    border: 5px solid #084552;
     width:35%;
     margin:30px;
+
 }
+.col-1a{
+    background: linear-gradient(to bottom,  #084552 0%,#084552 30%,white 30%,white 100%);
+    /*background-color:#F1EFE6;*/
+    border: 5px solid #084552;
+    max-height:350px;
+    margin-bottom:30px;
+}
+.col-1b{
+    background: white;
+    /*background-color:#F1EFE6;*/
+    border: 5px solid #084552;
+    max-height:500px;
+}
+
+.col-2-col{
+    background: white;
+    /*background-color:#F1EFE6;*/
+    width:55%;
+    margin:30px;
+}
+.col-2a{
+    background:white;
+    /*background-color:#F1EFE6;*/
+    border: 5px solid #084552;
+    max-height:250px;
+    overflow: scroll;
+}
+
 .container-fluid{
     background-color: white;
     /*background-image: linear-gradient(to right, #CBD7DA, #ECE9DE);*/
@@ -25,4 +51,16 @@
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
+}
+.Name{
+    font-size: 40px;
+    font-family: 'Poiret One', cursive;
+    color: #4D0227;
+    margin:0px;
+}
+.Title{
+    font-size:20px;
+    font-family: 'Poiret One', cursive;
+    color: #4D0227;
+    margin:0px;
 }
